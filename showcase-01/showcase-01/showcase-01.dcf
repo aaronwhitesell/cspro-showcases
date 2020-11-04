@@ -1,0 +1,90 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=showcase
+Name=SHOWCASE_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=1514450E3498D1A0CA7E044460B04D6508F7C41CBEB5AF71B430B40EEE349C8C
+
+[Level]
+Label=showcase Level
+Name=SHOWCASE_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Household Id
+Name=HOUSEHOLD_ID
+Start=2
+Len=3
+ZeroFill=Yes
+
+[Record]
+Label=showcase Record
+Name=SHOWCASE_REC
+RecordTypeValue='1'
+RecordLen=26
+
+[Item]
+Label=Signature
+Name=SIGNATURE
+Start=5
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Scan
+Name=SCAN
+Start=6
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Barcode Number
+Name=BARCODE_NO
+Start=7
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Interactive Audio
+Name=INTERACTIVE_AUDIO
+Start=22
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Background Audio 1
+Name=BACKGROUND_AUDIO_1
+Start=23
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Background Audio 2
+Name=BACKGROUND_AUDIO_2
+Start=24
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Background Audio Playback
+Name=BACKGROUND_AUDIO_PLAYBACK
+Start=25
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Conclude Interview
+Name=CONCLUDE_INTERVIEW
+Start=26
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Conclude Interview
+Name=CONCLUDE_INTERVIEW_VS1
+Value=1;End interview

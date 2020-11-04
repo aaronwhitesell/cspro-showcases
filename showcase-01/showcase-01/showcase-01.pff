@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Entry
+
+[Files]
+Application=.\showcase-01.ent
+InputData=.\showcase-01.csdb
+Paradata=.\showcase-01.cslog

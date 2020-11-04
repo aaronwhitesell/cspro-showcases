@@ -1,0 +1,25 @@
+{
+  "fileType": "Application Deployment Specification",
+  "version": "7.5",
+  "name": "showcase-01",
+  "description": "signature, barcode, audio",
+  "files": [
+    {
+      "path": ".\\showcase-01\\showcase-01.ent"
+    },
+    {
+      "path": ".\\showcase-01\\showcase-01.pff"
+    }
+  ],
+  "dictionaries": [
+    {
+      "path": ".\\showcase-01\\showcase-01.dcf",
+      "uploadForSync": true
+    }
+  ],
+  "deployment": {
+    "type": "LocalFolder",
+    "ftpUrl": "ftp:\/\/",
+    "localFolderPath": ".\\deploy-showcase-01"
+  }
+}

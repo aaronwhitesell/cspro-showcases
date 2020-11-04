@@ -1,0 +1,6 @@
+*.csdb
+*.cslog
+*.err
+*.pen
+
+showcase-01/deploy-showcase-01/

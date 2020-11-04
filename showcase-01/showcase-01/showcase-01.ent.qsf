@@ -1,0 +1,54 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.5
+
+[LANGUAGES]
+EN=English
+
+[QUESTION]
+Field=SHOWCASE_DICT.BACKGROUND_AUDIO_1
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.18362}\viewkind4\uc1
+EN=\pard\cf1\fs24 Audio is being recorded automatically (1/2)\par
+EN=}
+
+[QUESTION]
+Field=SHOWCASE_DICT.BACKGROUND_AUDIO_2
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.18362}\viewkind4\uc1
+EN=\pard\cf1\fs24 Audio is being recorded automatically (2/2)\par
+EN=}
+
+[QUESTION]
+Field=SHOWCASE_DICT.BACKGROUND_AUDIO_PLAYBACK
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.18362}\viewkind4\uc1
+EN=\pard\cf1\fs24 To re-record background audio you'll need to move from the \b Interactive Audio\b0  field to the \b Background Audio 1\b0  field.\par
+EN=}
+
+[QUESTION]
+Field=SHOWCASE_DICT.INTERACTIVE_AUDIO
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.18362}\viewkind4\uc1
+EN=\pard\cf1\fs24 An interactive recording\par
+EN=}
+
+[QUESTION]
+Field=SHOWCASE_DICT.SCAN
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.18362}\viewkind4\uc1
+EN=\pard\cf1\fs24 Scan the beverage\par
+EN=}
+
+[QUESTION]
+Field=SHOWCASE_DICT.SIGNATURE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.18362}\viewkind4\uc1
+EN=\pard\cf1\fs24 Sign to give consent\par
+EN=}
+
