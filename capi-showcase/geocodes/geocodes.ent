@@ -1,0 +1,23 @@
+﻿[CSPro Application]
+Version=CSPro 7.6
+Label=GEOCODES
+Name=GEOCODES
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\geocodes.ent.apc
+[Message]
+File=.\geocodes.ent.mgf
+[Help]
+File=.\geocodes.ent.qsf
+[Forms]
+File=.\geocodes.fmf
+[Dictionary Types]
+Dict-Type=.\geocodes.dcf,Input,.\geocodes.fmf

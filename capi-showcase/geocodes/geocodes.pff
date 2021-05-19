@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.6
+AppType=Entry
+
+[Files]
+Application=.\geocodes.ent
+InputData=.\geocodes.csdb
+Paradata=.\geocodes.cslog

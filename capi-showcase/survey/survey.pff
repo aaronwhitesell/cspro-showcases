@@ -1,0 +1,12 @@
+﻿[Run Information]
+Version=CSPro 7.6
+AppType=Entry
+
+[Files]
+Application=.\survey.ent
+InputData=.\survey.csdb
+Paradata=.\survey.cslog
+
+[ExternalFiles]
+ANIMALS_DICT=..\animals\animals.csdb
+GEOCODES_DICT=..\geocodes\geocodes.csdb

@@ -1,0 +1,29 @@
+﻿[CSPro Application]
+Version=CSPro 7.6
+Label=SURVEY
+Name=SURVEY
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\geocodes\geocodes.dcf
+[AppCode]
+File=.\survey.ent.apc
+[Message]
+File=.\survey.ent.mgf
+[Help]
+File=.\survey.ent.qsf
+[Forms]
+File=.\survey.fmf
+[Resources]
+Folder=.\Resources
+[Dictionary Types]
+Dict-Type=.\survey.dcf,Input,.\survey.fmf
+Dict-Type=..\geocodes\geocodes.dcf,External

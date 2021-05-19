@@ -1,0 +1,32 @@
+{
+  "fileType": "Application Deployment Specification",
+  "version": "7.6",
+  "name": "Showcase",
+  "description": "",
+  "files": [
+    {
+      "path": ".\\geocodes\\geocodes.csdb"
+    },
+    {
+      "path": ".\\survey\\survey.ent"
+    },
+    {
+      "path": ".\\survey\\survey.pff"
+    }
+  ],
+  "dictionaries": [
+    {
+      "path": ".\\geocodes\\geocodes.dcf"
+    },
+    {
+      "path": ".\\survey\\survey.dcf",
+      "uploadForSync": true
+    }
+  ],
+  "deployment": {
+    "type": "LocalFolder",
+    "cswebUrl": "http:\/\/www.aaronwhitesell.com\/csweb760\/api",
+    "ftpUrl": "ftp:\/\/",
+    "localFolderPath": ".\\deploy-showcase"
+  }
+}

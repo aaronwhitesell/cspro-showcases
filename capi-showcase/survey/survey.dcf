@@ -1,0 +1,101 @@
+﻿[Dictionary]
+Version=CSPro 7.6
+Label=survey
+Name=SURVEY_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=0FB663A6A335D3CA3167538972E02CB53BB188CE620F07D905F4D5580F8A4E7F
+
+[Level]
+Label=survey Level
+Name=SURVEY_LEVEL
+
+[IdItems]
+
+[Item]
+Label=survey Identification
+Name=SURVEY_ID
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=survey Record
+Name=SURVEY_REC
+RecordTypeValue='1'
+RecordLen=15
+
+[Item]
+Label=Sex
+Name=SEX
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Sex
+Name=SEX_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Age
+Name=AGE
+Start=4
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=Age
+Name=AGE_VS1
+Value=0:120;Age
+Value=999;Don't know
+Name=MISSING,Special
+
+[Item]
+Label=Highest Grade Completed
+Name=HIGHEST_GRADE_COMPLETED
+Start=7
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Highest Grade Completed
+Name=HIGHEST_GRADE_COMPLETED_VS1
+Value=1;Primary (age 7-15)
+Value=2;Secondary (age 16-17)
+Value=3;Bachelor's (age 18+)
+
+[Item]
+Label=Formatters
+Name=FORMATTERS
+Start=8
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Formatters
+Name=FORMATTERS_VS1
+Value=1;%d, %f and replacing each with %v
+Value=2;%d, %03d, %v
+Value=3;%s + %c
+Value=4;%l
+Value=5;%p
+Value=6;Continue
+
+[Item]
+Label=CAPI Question Text
+Name=CAPI_QUESTION_TEXT
+Start=9
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Dynamic Value Set
+Name=DYNAMIC_VALUE_SET
+Start=10
+Len=6
+DataType=Alpha

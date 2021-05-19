@@ -1,0 +1,6 @@
+﻿[Run Information]
+Version=CSPro 7.6
+AppType=Deploy
+
+[Files]
+Application=.\deploy-showcase.csds

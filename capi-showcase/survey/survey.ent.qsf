@@ -1,0 +1,71 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.6
+languages:
+  - name: EN
+    label: English
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+      
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+      
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+      
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+      
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+      
+questions:
+  - name: SURVEY_DICT.AGE
+    conditions:
+      - questionText:
+          EN: |
+            Combo box allowing for a range of values and a discrete "don't know" value<p></p>
+            
+  - name: SURVEY_DICT.CAPI_QUESTION_TEXT
+    conditions:
+      - questionText:
+          EN: |
+            <p><img src=".\Resources\Images\CsLogo2000.png" style="width: 55px; height: 55px;"><span style="font-size: 24px;"><b>HTML Question Text</b></span></p>
+            <p><span class="normal">Survey Progress</span></p>
+            <table class="table table-bordered"><tbody><tr><td>Function call</td><td>Dictionary variable</td></tr><tr><td>~~getlabel(SEX, SEX)~~<br></td><td>~~SEX~~<br></td></tr></tbody></table>
+            <p><span class="normal">﻿Preferred Pronouns: ~~Get_Pronouns~~</span></p><p><span class="normal"><span style="color: rgb(0, 0, 255); font-size: 14px;">Interviewer text styled with the css style instruction</span><br></span></p>
+            <ul><li><span class="instruction">Using a css style makes it easy to standardize text across questions</span></li></ul><p><br></p>
+            
+        helpText:
+          EN: |
+            
+  - name: SURVEY_DICT.DYNAMIC_VALUE_SET
+    conditions:
+      - questionText:
+          EN: |
+            <p>Dynamic Value Set</p><ul><li>72 - for loop</li><li>74 - startswith</li><li>74 - valueset object</li><li>74 - sort and randomize</li></ul><p></p><p></p><p></p>
+            
+  - name: SURVEY_DICT.FORMATTERS
+    conditions:
+      - questionText:
+          EN: |
+            <p><b>%d</b> - Integer<br></p><p><b>%f</b> - Floats (six decimals shown by default)</p><p><b>%s</b> - String</p><p><b>%v</b> - Smart formatter can be used in place of %d, %f, and %s. Additionally, it maintains dictionary formatting. Minor difference in behavior when using floats as it will display up to six decimal places.</p><p><b>%l</b> - Variable's value label</p><p><b>%c</b> - First character of a string</p><p><b>%p</b> - Insert current procedure (for debugging purposes)</p><p><br></p><p><br></p>
+            
+  - name: SURVEY_DICT.HIGHEST_GRADE_COMPLETED
+    conditions:
+      - questionText:
+          EN: |
+            <p><b>Consistency checks </b>help enuemrators identify errrors while in the field and allow enumeartors to fix problems immediately.</p><p><b>Hard checks</b></p><ul><li>Prohibit the enumerator from moving to the next question until a problem is resolved</li><li>Only use when there is absolute certainty that the response is an error</li></ul><p><b>Soft checks</b></p><ul><li>Warn the enumerator that the data may not be correct</li><li>The enumerator must review the response and determine whether to proceed with the interview of whether to fix the response</li></ul><p><b>General rule of thumb: </b>If in doubt, use a soft check, not a hard check!</p><p><p><br></p><p><br></p></p>
+            
+...
